@@ -164,6 +164,7 @@ button {
     cursor: pointer;
     vertical-align: middle;
     text-align: center;
+    border: none;
 }
 
 
