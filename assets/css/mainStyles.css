@@ -185,7 +185,7 @@ button:hover {
 }
 
 .grid p {
-    width: 200px;
+    max-width: 200px;
     height: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
@@ -194,7 +194,22 @@ button:hover {
     line-height: 50px;
     float: left;
     position: absolute;
+    top: 140px;
+}
 
+.grid p:nth-child(4)  {
+    left: 215px;
+}
+.grid p:nth-child(6)  {
+    top: 350px;
+}
+.grid p:nth-child(8)  {
+    top: 350px;
+    left: 215px;
+}
+
+.grid p:nth-child(10)  {
+    top: 570px;
 }
 
 /* SIDEBAR SECTION */
