@@ -185,31 +185,28 @@ button:hover {
     position: relative;
 }
 
-.grid p {
+#mainContent .grid p {
     max-width: 200px;
     height: 50px;
     background-color: #4aaaa5;
     color: #ffffff;
-    position: relative;
     text-align: center;
-    line-height: 50px;
-    float: left;
     position: absolute;
     top: 140px;
+    line-height: 50px;
 }
 
-.grid p:nth-child(4)  {
+#mainContent .grid p:nth-child(4)  {
     left: 215px;
 }
-.grid p:nth-child(6)  {
-    top: 350px;
+#mainContent .grid p:nth-child(6)  {
+    top: 355px;
 }
-.grid p:nth-child(8)  {
-    top: 350px;
+#mainContent .grid p:nth-child(8)  {
+    top: 355px;
     left: 215px;
 }
-
-.grid p:nth-child(10)  {
+#mainContent .grid p:nth-child(10)  {
     top: 570px;
 }
 
